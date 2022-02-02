@@ -56,13 +56,13 @@ h2 {
     font-weight: 700;
     line-height: 1.17;
 }
-.name{
+.member-name {
    font-size: 16px;
    font-weight: 500;
    line-height: 1.17;
    color: #212121;
 }
-.position {
+.member-position{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.17;
