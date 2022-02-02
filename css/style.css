@@ -4,15 +4,43 @@ body{
  'Open Sans', 'Helvetica Neue', sans-serif;  
  background: #E5E5E5;
 }
-h1{
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.36;
-}
 h2{
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
+}
+.logo {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    color: #2196F3;
+}
+.link {
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    line-height: 1.17;
+}
+h1 {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    color: #FFFFFF;
+   
+}
+.box{
+    background-color: #2F303A;
+    padding-top: 80px;
+    width: 1600px;
+    height: 600px;
+}
+.button {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 700;
+    background-color: #2196F3;
 }
 .title{
    font-size: 14px;
@@ -45,33 +73,16 @@ li{
  list-style-type: none;
   padding-left: 0;
 }
-.logo{
-    text-decoration: none;
-    font-weight: 700; 
-    font-size: 26px;
-    line-height: 1.17;
-    color: #2196F3;
-}
+
 .colortext{
     color: #000000;
 }
-.link {
-    text-decoration: none;
-    color: #212121;
-    font-size: 14px;
-    line-height: 1.17;
-}
+
 .link:hover {
     text-decoration: none;
     color: #2196F3;
 }
-.button{
-    color: #FFFFFF;
-    font-size: 16px;
-    line-height: 1.88;
-    font-weight: 700;
-    background-color: #2196F3;
-}
+
 .btn{
      font-size: 16px;
      line-height: 1.63;
