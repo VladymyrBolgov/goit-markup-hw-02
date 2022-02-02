@@ -52,6 +52,7 @@ body{
     line-height: 1.88;
     font-weight: 700;
     background-color: #2196F3; 
+    cursor: pointer;
 }
 .box-button:hover {
 
@@ -97,14 +98,13 @@ li{
  list-style-type: none;
   padding-left: 0;
 }
-
-
 .projects-button {
      font-size: 16px;
      line-height: 1.63;
      font-weight: 500;
      color: #212121;
      background-color: #F5F4FA;
+      cursor: pointer;
 }
 .projects-button:hover {
    background-color: #2196F3;
