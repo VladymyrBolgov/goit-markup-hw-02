@@ -12,6 +12,9 @@ body{
     line-height: 1.17;
     color: #2196F3;
 }
+.cap-colortext {
+    color: #000000;
+}
 .cap-link {
     text-decoration: none;
     font-weight: 500;
@@ -34,7 +37,8 @@ body{
 }
 .box {
     background-color: #2F303A;
-    padding-top: 80px;}
+    padding-top: 80px;
+}
 .box-title {
     font-size: 44px;
     font-weight: 900;
@@ -93,9 +97,7 @@ li{
  list-style-type: none;
   padding-left: 0;
 }
-.colortext{
-    color: #000000;
-}
+
 
 .btn{
      font-size: 16px;
@@ -120,4 +122,25 @@ li{
     font-weight: 400;
     line-height: 1.88;
     color: #757575;
+}
+.basement{
+    background-color: #2F303A;
+    padding-top: 80px;
+}
+.basement-logo{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    color: #2196F3;
+}
+.basement-colortext {
+    color: #FFFFFF;
+}
+.basement-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
 }
