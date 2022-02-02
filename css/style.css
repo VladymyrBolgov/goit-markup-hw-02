@@ -23,7 +23,7 @@ body{
     padding-top: 80px;
 
 }
-h1 {
+.box-title {
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
@@ -54,7 +54,12 @@ h1 {
     line-height: 1.71;
     color: #757575;
 }
-h2 {
+.directions-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+}
+.member-title{
     font-size: 36px;
     font-weight: 700;
     line-height: 1.17;
