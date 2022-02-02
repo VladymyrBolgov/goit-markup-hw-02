@@ -18,24 +18,27 @@ body{
     font-size: 14px;
     line-height: 1.17;
 }
+.box {
+    background-color: #2F303A;
+    padding-top: 80px;
+
+}
 h1 {
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
     color: #FFFFFF;
+    text-align: center;
    
 }
-.box{
-    background-color: #2F303A;
-    padding-top: 80px;
- 
-}
+
 .button {
     color: #FFFFFF;
     font-size: 16px;
     line-height: 1.88;
     font-weight: 700;
     background-color: #2196F3;
+    
 }
 
 .benefits-title {
