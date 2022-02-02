@@ -19,12 +19,18 @@ body{
     font-size: 14px;
     line-height: 1.17;
 }
+.cap-link:hover {
+    color: #2196F3;
+}
 .contact-link {
    text-decoration: none;
    font-weight: 500;
    color: #757575;
    font-size: 14px;
    line-height: 1.17;
+}
+.contact-link:hover{
+   color: #2196F3;
 }
 .box {
     background-color: #2F303A;
@@ -90,10 +96,7 @@ li{
 .colortext{
     color: #000000;
 }
-.link:hover {
-    text-decoration: none;
-    color: #2196F3;
-}
+
 .btn{
      font-size: 16px;
      line-height: 1.63;
