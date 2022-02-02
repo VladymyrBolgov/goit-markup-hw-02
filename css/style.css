@@ -28,8 +28,7 @@ h1 {
 .box{
     background-color: #2F303A;
     padding-top: 80px;
-    width: 1600px;
-    height: 600px;
+ 
 }
 .button {
     color: #FFFFFF;
@@ -38,11 +37,7 @@ h1 {
     font-weight: 700;
     background-color: #2196F3;
 }
-h2 {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.17;
-}
+
 .benefits-title {
    font-size: 14px;
    font-weight: 700;
@@ -50,7 +45,7 @@ h2 {
    color: #212121;
 }
 
-.benefits-text {
+.benefits-text{
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
@@ -64,7 +59,7 @@ h2 {
 .name{
    font-size: 16px;
    font-weight: 500;
-   line-height: 1.17
+   line-height: 1.17;
    color: #212121;
 }
 .position {
