@@ -46,14 +46,14 @@ body{
     color: #FFFFFF;
     text-align: center;
 }
-.button {
+.box-button {
     color: #FFFFFF;
     font-size: 16px;
     line-height: 1.88;
     font-weight: 700;
     background-color: #2196F3; 
 }
-.button:hover{
+.box-button:hover {
 
 }
 .benefits-title {
@@ -99,33 +99,34 @@ li{
 }
 
 
-.btn{
+.projects-button {
      font-size: 16px;
      line-height: 1.63;
      font-weight: 500;
      color: #212121;
      background-color: #F5F4FA;
 }
-.btn:hover{
+.projects-button:hover {
    background-color: #2196F3;
    color: #FFFFFF;
   
 }
-.subject {
+.presentation-subject {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
     color: #212121;
 }
-.direction{
+.presentation-direction {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.88;
     color: #757575;
 }
 .basement{
-    background-color: #2F303A;
+    background-color:#2F303A;
     padding-top: 80px;
+    
 }
 .basement-logo{
     text-decoration: none;
