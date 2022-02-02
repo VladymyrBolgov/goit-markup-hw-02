@@ -5,18 +5,26 @@ body{
  background: #E5E5E5;
 }
 
-.logo {
+.cap-logo {
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.17;
     color: #2196F3;
 }
-.link {
+.cap-link {
     text-decoration: none;
+    font-weight: 500;
     color: #212121;
     font-size: 14px;
     line-height: 1.17;
+}
+.contact-link {
+   text-decoration: none;
+   font-weight: 500;
+   color: #757575;
+   font-size: 14px;
+   line-height: 1.17;
 }
 .box {
     background-color: #2F303A;
@@ -34,6 +42,9 @@ body{
     line-height: 1.88;
     font-weight: 700;
     background-color: #2196F3; 
+}
+.button:hover{
+
 }
 .benefits-title {
    font-size: 14px;
@@ -93,6 +104,7 @@ li{
 .btn:hover{
    background-color: #2196F3;
    color: #FFFFFF;
+  
 }
 .subject {
     font-size: 18px;
