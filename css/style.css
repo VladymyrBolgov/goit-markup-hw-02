@@ -1,16 +1,21 @@
+:root{
+    /* обьясните пожалуйста что именно 
+     за переменные в root надо положить */
+
+}
 body{
- font-family: -apple-system, BlinkMacSystemFont, 
- 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
- 'Open Sans', 'Helvetica Neue', sans-serif;  
- background: #E5E5E5;
+font-family: roboto, sans-serif;
 }
 
 .cap-logo {
+    font-family: Raleway;
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.17;
     color: #2196F3;
+    text-transform: none;
+    letter-spacing: normal; 
 }
 .cap-colortext {
     color: #000000;
@@ -21,23 +26,28 @@ body{
     color: #212121;
     font-size: 14px;
     line-height: 1.17;
+    text-transform: none;
+    letter-spacing: normal;
 }
 .cap-link:hover {
     color: #2196F3;
 }
 .contact-link {
    text-decoration: none;
+   text-transform: none;
+   letter-spacing: normal;
    font-weight: 500;
    color: #757575;
    font-size: 14px;
    line-height: 1.17;
 }
-.contact-link:hover{
+.contact-link:hover,
+.contact-link:focus {
    color: #2196F3;
 }
 .box {
     background-color: #2F303A;
-    padding-top: 80px;
+   
 }
 .box-title {
     font-size: 44px;
@@ -45,6 +55,8 @@ body{
     line-height: 1.36;
     color: #FFFFFF;
     text-align: center;
+    text-transform: none;
+    letter-spacing: normal;
 }
 .box-button {
     color: #FFFFFF;
@@ -53,6 +65,8 @@ body{
     font-weight: 700;
     background-color: #2196F3; 
     cursor: pointer;
+    text-transform: none;
+    letter-spacing: normal;
 }
 .box-button:hover {
 
@@ -62,34 +76,44 @@ body{
    font-weight: 700;
    line-height: 1.17;
    color: #212121;
+   text-transform: none;
+   letter-spacing: normal;
 }
 .benefits-text{
     font-size: 14px;
-    font-weight: 400;
     line-height: 1.71;
     color: #757575;
+    text-transform: none;
+    letter-spacing: normal;
 }
 .directions-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.17;
+    text-transform: none;
+    letter-spacing: normal;
 }
 .member-title{
     font-size: 36px;
     font-weight: 700;
     line-height: 1.17;
+    text-transform: none;
+    letter-spacing: normal;
 }
 .member-name {
    font-size: 16px;
    font-weight: 500;
    line-height: 1.17;
    color: #212121;
+   text-transform: none;
+   letter-spacing: normal;
 }
 .member-position{
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.17;
     color: #757575;
+    text-transform: none;
+    letter-spacing: normal;
 }
 ul{
    padding-left: 0;
@@ -98,15 +122,18 @@ li{
  list-style-type: none;
   padding-left: 0;
 }
-.projects-button {
+.filter-button {
      font-size: 16px;
      line-height: 1.63;
      font-weight: 500;
      color: #212121;
      background-color: #F5F4FA;
-      cursor: pointer;
+     cursor: pointer;
+     text-transform: none;
+     letter-spacing: normal;
 }
-.projects-button:hover {
+.filter-button:hover,
+.filters-button:focus {
    background-color: #2196F3;
    color: #FFFFFF;
   
@@ -116,32 +143,42 @@ li{
     font-weight: 700;
     line-height: 2;
     color: #212121;
+    text-transform: none;
+    letter-spacing: normal;
 }
 .presentation-direction {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.88;
     color: #757575;
+    text-transform: none;
+    letter-spacing: normal;
 }
 .basement{
     background-color:#2F303A;
-    padding-top: 80px;
     
 }
 .basement-logo{
+    font-family: Raleway;
     text-decoration: none;
+    text-transform: none;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.17;
     color: #2196F3;
+    letter-spacing: normal;
 }
 .basement-colortext {
     color: #FFFFFF;
+    
+}
+.basement-address{
+    font-style: normal;
 }
 .basement-link {
     text-decoration: none;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    color: #FFFFFF;
+    color: #FFFFFF60;
+    text-transform: none;
+    letter-spacing: normal;
 }
