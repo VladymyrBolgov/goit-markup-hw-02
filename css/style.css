@@ -5,7 +5,7 @@
 body{
 font-family: roboto, sans-serif;
 }
-.cap-logo {
+.site-logo {
     color: #2196F3;
     font-family: Raleway, cursive;
     font-weight: 700;
@@ -15,10 +15,10 @@ font-family: roboto, sans-serif;
     text-transform: none;
     letter-spacing: 0.03em; 
 }
-.cap-colortext {
+.site-colortext {
     color: #000000;
 }
-.cap-link {
+.site-nav {
     color: #212121;
     font-weight: 500;
     font-size: 14px;
@@ -27,11 +27,11 @@ font-family: roboto, sans-serif;
     text-transform: none;
     letter-spacing: 0.02em;
 }
-.cap-link:hover,
-.cap-link:focus{
+.site-nav:hover,
+.site-nav:focus {
     color: #2196F3;
 }
-.contact-link {
+.contact-nav {
    color: #757575;
    font-weight: 500;
    font-size: 14px;
@@ -40,8 +40,8 @@ font-family: roboto, sans-serif;
    text-transform: none;
    letter-spacing: 0.02em;
 }
-.contact-link:hover,
-.contact-link:focus {
+.contact-nav:hover,
+.contact-nav:focus {
    color: #2196F3;
 }
 .box {
