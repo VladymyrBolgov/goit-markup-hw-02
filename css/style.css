@@ -27,7 +27,8 @@ font-family: roboto, sans-serif;
     text-transform: none;
     letter-spacing: 0.02em;
 }
-.cap-link:hover {
+.cap-link:hover,
+.cap-link:focus{
     color: #2196F3;
 }
 .contact-link {
