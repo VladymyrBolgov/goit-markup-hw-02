@@ -15,7 +15,7 @@ font-family: roboto, sans-serif;
     text-transform: none;
     letter-spacing: 0.03em; 
 }
-.site-colortext {
+.site-color{
     color: #000000;
 }
 .site-nav {
@@ -140,7 +140,7 @@ font-family: roboto, sans-serif;
     text-transform: none;
     letter-spacing: 0.03em;
 }
-.basement-colortext {
+.basement-color{
     color: #FFFFFF;
 }
 .basement-address {
