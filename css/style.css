@@ -26,7 +26,8 @@ font-family: roboto, sans-serif;
 .site-color{
     color: var(--color-logo);
 }
-.site-nav {
+
+.link {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -35,11 +36,15 @@ font-family: roboto, sans-serif;
     text-transform: none;
     letter-spacing: 0.02em;
 }
-.site-nav:hover,
-.site-nav:focus {
+.link:hover,
+.link:focus {
     color: var(--accent-color);
 }
-.contact-nav {
+.site-nav link.current {
+    color: var(--accent-color);
+}
+
+.contact {
    color: var(--primary-text-color);
    font-weight: 500;
    font-size: 14px;
@@ -48,8 +53,8 @@ font-family: roboto, sans-serif;
    text-transform: none;
    letter-spacing: 0.02em;
 }
-.contact-nav:hover,
-.contact-nav:focus {
+.contact:hover,
+.contact:focus {
    color: var(--accent-color);
 }
 .box {
