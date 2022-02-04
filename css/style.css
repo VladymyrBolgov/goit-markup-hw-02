@@ -5,8 +5,10 @@
    --color-logo: #000000;
    --color-background: #2F303A;
    --color-footer-contact: #FFFFFF60;
-   --background-button: #F5F4FA;
-   --color-white: #FFFFFF;
+   --background-button-member: #F5F4FA;
+   --primary-color-white: #FFFFFF;
+   --color-box-button: #188CEB;
+   
 }
 body{
 font-family: roboto, sans-serif;
@@ -53,8 +55,8 @@ font-family: roboto, sans-serif;
 .box {
     background-color: var(--color-background)
 }
-.box-title {
-    color: var(--color-white);
+.box-title{
+    color: var(--primary-color-white);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -62,8 +64,8 @@ font-family: roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.06em;
 }
-.box-button {
-    color: var(--color-white);
+.box-button{
+    color: var(--primary-color-white);
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
@@ -76,10 +78,10 @@ font-family: roboto, sans-serif;
     text-align: center;
 }
 .box-button:hover,
-.box-button:focus {
-
+.box-button:focus{
+    background-color: var(--color-box-button);
 }
-.benefits-title {
+.benefits-title{
    color: var(--title-text-color);
    font-weight: 700;
    font-size: 14px;
@@ -94,8 +96,15 @@ font-family: roboto, sans-serif;
     text-transform: none;
     letter-spacing: 0.03em;
 }
+.member{
+    background-color: var(--background-button-member);
+}
+.cards{
+    background-color: var(--primary-color-white);
+}
+
 .directions-title,
-.member-title {
+.member-title{
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -104,7 +113,7 @@ font-family: roboto, sans-serif;
     text-transform: none;
     letter-spacing: 0.03em;
 }
-.member-name {
+.member-name{
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -139,10 +148,10 @@ font-family: roboto, sans-serif;
     letter-spacing: 0.03em;
 }
 .basement-color{
-    color: var(--color-white);
+    color: var(--primary-color-white);
 }
 .basement-address {
-    color: var(--color-white);
+    color: var(--primary-color-white);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -152,6 +161,7 @@ font-family: roboto, sans-serif;
 }
 .basement-link {
     color: var(--color-footer-contact);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
@@ -160,7 +170,7 @@ font-family: roboto, sans-serif;
 }
 .filter-button {
     color: var(--title-text-color);
-    background-color: var(--background-button);
+    background-color: var(--background-button-member);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -168,11 +178,13 @@ font-family: roboto, sans-serif;
     cursor: pointer;
     text-transform: none;
     letter-spacing: 0.03em;
+    font-family: inherit;
+    border: none;
 }
 .filter-button:hover,
 .filters-button:focus {
    background-color: var(--accent-color);
-   color: var(--color-white);
+   color: var(--primary-color-white);
 }
 .presentation-subject {
     color: var(--title-text-color);
