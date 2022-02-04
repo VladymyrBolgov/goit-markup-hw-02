@@ -13,6 +13,9 @@
 body{
 font-family: roboto, sans-serif;
 }
+.list {
+    list-style: none;
+}
 .site-logo {
     color: var(--accent-color);
     font-family: Raleway, cursive;
@@ -135,10 +138,6 @@ font-family: roboto, sans-serif;
     text-transform: none;
     letter-spacing: 0.03em;
 }
-
-.list{
-    list-style: none;
-}
 .basement {
     background-color: var(--color-background);
 }
@@ -173,6 +172,7 @@ font-family: roboto, sans-serif;
     text-transform: none;
     letter-spacing: 0.03em;
 }
+/* портфолио*/
 .filter-button {
     color: var(--title-text-color);
     background-color: var(--background-button-member);
